@@ -27,11 +27,13 @@ public class HRCalculatorSolver {
         Boolean ask = true;
         Scanner robot = new Scanner(System.in);
 
-        while(ask) {
+
             System.out.println("Welcome to the HR application.");
             System.out.println("We break down employee annual salary into monthly, biMonthly, and biWeakly payments");
 
-            String[] questions = {
+            while(ask) {
+
+                String[] questions = {
                     "Please enter First Name:",
                     "Please enter Last Name:",
                     "Please enter employee Number:",
