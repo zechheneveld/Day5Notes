@@ -53,7 +53,7 @@ public class HRCalculatorSolver {
 //            System.out.println(answers.get(1)); //used just to make sure you are recording the information
 //            System.out.println(answers.get(2));
 //            System.out.println(answers.get(3));
-
+            String firstNameString = answers.get(0);
             String salaryString = answers.get(3);
             int salary = Integer.parseInt(salaryString);
 
@@ -78,7 +78,7 @@ public class HRCalculatorSolver {
             System.out.println("monthly Salary: " + twiceMonthSalary);
             System.out.println("monthly Salary: " + everyTwoWeeksSalary);
 
-            System.out.println("do you want to enter another employee?");
+            System.out.println(firstNameString + ", would you like to enter another employee?");
             String responseFromUser = robot.nextLine();
             if(responseFromUser.equalsIgnoreCase("yes") || responseFromUser.equalsIgnoreCase("y")){
                 ask = true;
