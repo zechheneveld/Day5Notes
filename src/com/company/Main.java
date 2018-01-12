@@ -57,7 +57,7 @@ public class Main {
             System.out.println("In " + fiveYear + " you will be " + fiveAge + " years old.");
             System.out.println("In " + tenYear + " you will be " + tenAge + " years old.");
 
-            System.out.println("Would you like to enter a different name and age?");
+            System.out.println(nameString + ", would you like to enter a different name and age?");
 
             String userResponse = robot.nextLine();
             if(userResponse.equalsIgnoreCase("yes") || userResponse.equalsIgnoreCase("y")){
