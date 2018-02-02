@@ -65,6 +65,7 @@ public class Main {
             } else {
                 ask = false;
             }
+            System.out.println("Have a nice day!");
         }
 
     }

@@ -22,6 +22,7 @@ public class WeekendChallenge {
             //int intFirst = Integer.parseInt(firstNumber);
            //int intSecond = Integer.parseInt(secondNumber);
            // int intResult = 0;
+
            //Double allows a decimal to be used to find
            double intFirst = Double.parseDouble(firstNumber);
            double intSecond = Double.parseDouble(secondNumber);
